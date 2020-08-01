@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "defaultProvider": "filesystem",
+  "libraries": [
+    {
+      "library": "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
+      "destination": "wwwroot/lib/bootstrap.min/"
+    },
+    {
+      "library": "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
+      "destination": "wwwroot/lib/bootstrap.min/"
+    },
+    {
+      "library": "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js",
+      "destination": "wwwroot/lib/bootstrap.min/"
+    },
+    {
+      "library": "https://code.jquery.com/jquery-3.4.1.slim.min.js",
+      "destination": "wwwroot/lib/bootstrap.min/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "twitter-bootstrap@4.4.1",
+      "destination": "wwwroot/lib/twitter-bootstrap/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jquery-validate@1.19.1",
+      "destination": "wwwroot/lib/jquery-validate/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jquery@3.4.1",
+      "destination": "wwwroot/lib/jquery/"
+    }
+  ,
+{
+  "provider": "cdnjs",
+  "library": "jquery-validation-unobtrusive@3.2.11",
+  "destination": "wwwroot/lib/jquery-validation-unobtrusive/"
+}
+]
+}
